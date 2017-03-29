@@ -9,7 +9,7 @@ When we drive, we use our eyes to decide where to go.  The lines on the road tha
 
 In this project we will detect lane lines in images using Python and OpenCV.  
 
-## Libraries 
+## How to Run
 **Step 1:** Install Python 3
 
 To run this project, you will need Python 3 along with the numpy, matplotlib, and OpenCV libraries, as well as Jupyter Notebook installed. 
@@ -87,3 +87,15 @@ A browser window will appear showing the contents of the current directory.  Cli
 * Then I applied Hough Lines algorithm on this masked edge image. This gives us line segments where we have edges near the lane lines. 
 * Once I get the lane line segments, I extrapolated the left lane line and right lane line, based on the angle.
 * Since we are using Polar coordinates in Hough Transform, our left line will have negative slope and the right line will have positive slope. Based on this, I classify each line segment to be either a left line segment or a right line segment. Then I take average of all left line segments and draw an extrapolated left line. I apply same method for extrapolating the right line segment as well. To make the extrapolated lines more stable and less wobbly, I applied weighted sum of previous slope and current slope of each line. This allows smooth transitioning of the slope, so the outcome looks more stable.
+
+
+---
+
+## Video Output
+
+#### Project Video:
+Detecting White Lane Lines:  https://youtu.be/VXccUjr322A
+Detecting Yellow Lane Lines:  https://youtu.be/t38wJ3V3Mi8
+Challenge Video:  https://youtu.be/6eJAxwa-qDY
+<br />
+
