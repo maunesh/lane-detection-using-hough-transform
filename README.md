@@ -9,7 +9,7 @@ When we drive, we use our eyes to decide where to go.  The lines on the road tha
 
 In this project we will detect lane lines in images using Python and OpenCV.  
 
-## How to Run
+## To Run
 **Step 1:** Install Python 3
 
 To run this project, you will need Python 3 along with the numpy, matplotlib, and OpenCV libraries, as well as Jupyter Notebook installed. 
@@ -95,7 +95,9 @@ A browser window will appear showing the contents of the current directory.  Cli
 
 #### Project Video:
 Detecting White Lane Lines:  https://youtu.be/VXccUjr322A
+<br />
 Detecting Yellow Lane Lines:  https://youtu.be/t38wJ3V3Mi8
+<br />
 Challenge Video:  https://youtu.be/6eJAxwa-qDY
 <br />
 
