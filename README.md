@@ -89,8 +89,6 @@ A browser window will appear showing the contents of the current directory.  Cli
 * Since we are using Polar coordinates in Hough Transform, our left line will have negative slope and the right line will have positive slope. Based on this, I classify each line segment to be either a left line segment or a right line segment. Then I take average of all left line segments and draw an extrapolated left line. I apply same method for extrapolating the right line segment as well. To make the extrapolated lines more stable and less wobbly, I applied weighted sum of previous slope and current slope of each line. This allows smooth transitioning of the slope, so the outcome looks more stable.
 
 
----
-
 ## Video Output
 
 #### Project Video:
@@ -100,4 +98,9 @@ Detecting Yellow Lane Lines:  https://youtu.be/t38wJ3V3Mi8
 <br />
 Challenge Video:  https://youtu.be/6eJAxwa-qDY
 <br />
+
+
+## Blog Post
+https://medium.com/@maunesh/finding-the-right-parameters-for-your-computer-vision-algorithm-d55643b6f954
+
 
