@@ -75,7 +75,7 @@ Jupyter is an ipython notebook where you can run blocks of code and see results 
 A browser window will appear showing the contents of the current directory.  Click on the file called "P1.ipynb".  Another browser window will appear displaying the notebook.  Follow the instructions in the notebook to complete the project.  
 
 
-# Pipeline
+## Pipeline
 
 * I am first converting the color image (or a frame from a video) to a grayscale image. This enables us to work on a single channel of the image, instead of working on all 3 channels (BGR). So this is computationally less intensive
 * Then I am applying Gaussian Blur to the image. I also tried Bilateral Filtering, since this filtering preserves edges better, compared to Gaussian Filter. However, I did not see a big advantage in this project, so I kept the Gaussian Filtering in my code to be consistent with given specifications.
